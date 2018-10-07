@@ -13,7 +13,7 @@ The user interface was build using css javascript and HTML
 
 **Installation**
 
-Clone the repo to your local machine. Open index.html and view the UI. NB:App has no functionality
+Clone the repo to your local machine. Open index.html and view the UI. **NB:** App has no functionality
 
 **Features**
 
