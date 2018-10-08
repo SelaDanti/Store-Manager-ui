@@ -1,3 +1,6 @@
+/* general styling*/
+h1,h2,h3,h4, a{color: #4a306d}
+a{text-decoration: none;}
 .dark-bg
 {
 	background-color: #0e273c
@@ -25,15 +28,19 @@ input[type="text"],input[type="email"],input[type="password"]
 	color: #fff;
 	padding:15px;
 }
+#active-links
+{
+	color: #a167a5;
+}
 /*login panel*/
 .login-box
 {
 	width:50%;
 	margin: auto;
-	height: 360px;
+	height: 440px;
 	background-color: #fff;
 	position: relative;
-	top:110px;
+	top:60px;
 }
 .login-box img
 {
