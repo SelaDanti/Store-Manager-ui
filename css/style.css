@@ -32,6 +32,11 @@ input[type="text"],input[type="email"],input[type="password"]
 {
 	color: #a167a5;
 }
+.container
+{
+	width:90%;
+	margin:auto;
+}
 /*login panel*/
 .login-box
 {
@@ -61,4 +66,41 @@ input[type="text"],input[type="email"],input[type="password"]
 .login-box button
 {
 	margin-top: 10px;
+}
+
+
+/* navigation*/
+.nav
+{
+	width: 100%;
+	background-color: #0e273c;
+	height:41px;
+}
+.nav ul>li
+{
+	display: inline;
+	color: #e8d7f1;
+	height: 40px;
+	position: relative;
+	top:12px;
+}
+.nav a
+{
+	color: #e8d7f1;
+	padding:12px;
+}
+.nav a:hover
+{
+	color: #e8d7f1;
+	background-color: #a167a5;
+}
+.active-nav
+{
+	color: #e8d7f1;
+	background-color: #a167a5;
+	padding:10px;
+}
+#logo
+{
+	margin-right: 60px;
 }
