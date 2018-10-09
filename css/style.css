@@ -191,3 +191,24 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	width: 70%;
 	margin: auto;
 }
+
+/*confirm*/
+.confirm 
+{
+	width:70%;
+	margin:auto;
+	border-style: inset;
+	border-color: red;
+	border-width: 2px;
+	padding: 20px;
+	background-color: #FEEFB3;
+}
+.confirm button
+{
+	margin-right: 5px;
+	margin-left: 5px;
+	width:90px;
+	height: 40px;
+	background-color: #0e273c;
+	color:#fff;
+}
