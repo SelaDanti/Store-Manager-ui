@@ -37,6 +37,10 @@ input[type="text"],input[type="email"],input[type="password"]
 	width:90%;
 	margin:auto;
 }
+.margin-top-20
+{
+	margin-top: 20px;
+}
 /*login panel*/
 .login-box
 {
@@ -103,4 +107,48 @@ input[type="text"],input[type="email"],input[type="password"]
 #logo
 {
 	margin-right: 60px;
+}
+.logo-text{color: #a167a5;}
+/*category*/
+.category select
+{
+	width:400px;
+	height: 50px;
+	background-color: #fff;
+	border-style: inset;
+	border-color:#4a306d;
+	border-width:2px;
+}
+/*table products*/
+.table-product table
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+.table-product th,td
+{
+	height: 30px;
+	text-align: left;
+	padding-left: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #4a306d;
+	border-bottom-width: 1px;
+}
+#product-title
+{
+	background-color: #4a306d;
+	height: 50px;
+	color:#fff;
+	text-align: center;
+}
+.table-product tr:hover {background-color:#e8d7f1;}
+.table-product tr:nth-child(2)
+{
+	background-color: #fff;
+}
+.btn-category
+{
+	background-color: #a167a5;
+	color:#fff;
+	padding:5px;
 }
