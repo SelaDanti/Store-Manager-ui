@@ -1,6 +1,12 @@
 /* general styling*/
 h1,h2,h3,h4, a{color: #4a306d}
 a{text-decoration: none;}
+.white-bg
+{
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat center;
+	background-size: cover;
+}
 .dark-bg
 {
 	background-color: #0e273c
@@ -20,6 +26,11 @@ input[type="text"],input[type="email"],input[type="password"]
 	border-width:2px;
 	color:#000;
 }
+input[type="email"]::placeholder, input[type="password"]::placeholder,input[type="text"]::placeholder
+{
+	color:#0e273c;
+	padding-left: 10px;
+}
 .btn-main
 {
 	width: auto;
@@ -27,6 +38,15 @@ input[type="text"],input[type="email"],input[type="password"]
 	background-color: #4a306d;
 	color: #fff;
 	padding:15px;
+}
+.btn-danger
+{
+	width: auto;
+	height: 50px;
+	background-color: red;
+	color: #fff;
+	padding:15px;
+	margin-top: 5px;
 }
 #active-links
 {
@@ -61,11 +81,6 @@ input[type="text"],input[type="email"],input[type="password"]
 {
 	margin-top: 10px;
 	margin-bottom: 10px;
-}
-.login-box input[type="email"]::placeholder,.login-box input[type="password"]::placeholder
-{
-	color:#0e273c;
-	padding-left: 10px;
 }
 .login-box button
 {
@@ -141,14 +156,38 @@ input[type="text"],input[type="email"],input[type="password"]
 	color:#fff;
 	text-align: center;
 }
+#product-end
+{
+	background-color: #fff;
+	height: 50px;
+	text-align: center;
+	border-bottom-width: 0px;
+}
 .table-product tr:hover {background-color:#e8d7f1;}
 .table-product tr:nth-child(2)
 {
 	background-color: #fff;
+}
+.table-product span
+{
+	color:green;
 }
 .btn-category
 {
 	background-color: #a167a5;
 	color:#fff;
 	padding:5px;
+}
+.btn-remove
+{
+	background-color: red;
+	color:#fff;
+	padding:5px;
+}
+
+/*cart-box*/
+.cart-box
+{
+	width: 70%;
+	margin: auto;
 }
