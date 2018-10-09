@@ -203,6 +203,7 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	padding: 20px;
 	background-color: #FEEFB3;
 }
+
 .confirm button
 {
 	margin-right: 5px;
