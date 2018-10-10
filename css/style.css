@@ -264,3 +264,19 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	position: relative;
 	top:11px;
 }
+.product-image-left
+{
+	position: absolute;
+	top:70px;
+}
+.product-image-right
+{
+	position: absolute;
+	top:70px;
+	left:80%;
+}
+.product-image-left img,.product-image-right img
+{
+	width: 200px;
+	height: 200px;
+}
