@@ -15,7 +15,7 @@ a{text-decoration: none;}
 {
 	text-align: center;
 }
-input[type="text"],input[type="email"],input[type="password"]
+input[type="text"],input[type="email"],input[type="password"],select
 {
 	width:80%;
 	margin-left: auto;
@@ -197,6 +197,12 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	color:#fff;
 	padding:5px;
 }
+.btn-edit
+{
+	background-color: orange;
+	color:#fff;
+	padding:5px;
+}
 
 /*cart-box*/
 .cart-box
@@ -275,4 +281,17 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 {
 	font-size: 30px;
 	color: red;
+}
+.edit-info input[type="text"],.edit-info select
+{
+	padding-left: 10px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #4a306d;
+}
+.edit-info select
+{
+	width:90%;
+	height: 50px;
+	background-color: #fff;
 }
