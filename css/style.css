@@ -61,6 +61,10 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 {
 	margin-top: 20px;
 }
+.margin-top-40
+{
+	margin-top: 40px;
+}
 /*login panel*/
 .login-box
 {
