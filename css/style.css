@@ -202,6 +202,7 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	border-width: 3px;
 	border-style: inset;
 	border-color: #4a306d;
+	border-radius: 25px;
 }
 .sales-box h1,.sales-box h2
 {
@@ -209,3 +210,7 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 		color:#000;
 }
 
+.sales-box:hover
+{
+	border-color: red;
+}
