@@ -48,6 +48,15 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	padding:15px;
 	margin-top: 5px;
 }
+.btn-ok
+{
+	width: auto;
+	height: 50px;
+	background-color: green;
+	color: #fff;
+	padding:15px;
+	margin-top: 5px;
+}
 #active-links
 {
 	color: #a167a5;
