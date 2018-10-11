@@ -25,11 +25,11 @@ input[type="text"],input[type="email"],input[type="password"],select
 	border-color:#4a306d;
 	border-width:2px;
 	color:#000;
+	padding-left: 10px;
 }
 input[type="email"]::placeholder, input[type="password"]::placeholder,input[type="text"]::placeholder
 {
 	color:#0e273c;
-	padding-left: 10px;
 }
 .btn-main
 {
