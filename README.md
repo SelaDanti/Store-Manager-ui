@@ -1,4 +1,4 @@
-[![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/SelaDanti/Store-Manager-ui/pull/9) 
+[![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/SelaDanti/Store-Manager-ui/pull/10) 
 
 **Store Manager**
 
