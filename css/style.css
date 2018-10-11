@@ -295,3 +295,16 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	height: 50px;
 	background-color: #fff;
 }
+.attendant-form select
+{
+	background-color: #fff;
+	border-style: inset;
+	border-color:#4a306d;
+	border-width:2px;
+	width:81%;
+	margin:auto;
+}
+.attendant-form input[type="text"],.attendant-form input[type="email"].attendant-form input[type="password"],.attendant-form select
+{
+	margin-top: 10px;
+}
