@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="../images/favicon.ico">
+	<script src="../js/admin-redirect.js"></script>
 </head>
 <body class="white-bg">
 <!--navigation-->
@@ -17,6 +18,7 @@
 			<li><a href="new-attendant.html">Add Store attendant</a></li>
 			<li><a href="new-product.html">Add Products</a></li>
 			<li><a href="edit-product.html">Edit Product</a></li>
+			<li><a href="category.html">Category</a></li>
 		</ul>
 	</div>
 </div>
@@ -56,10 +58,10 @@
 				<td>071589650</td>
 				<td>electronics</td>
 				<td>
-					<button class="btn-category">Sales Record</button>
+					<button class="btn-category" onclick="showSales()">Sales Record</button>
 				</td>
 				<td>
-					<button class="btn-edit">Edit Record</button>
+					<button class="btn-edit" onclick="showEditSales()">Edit Record</button>
 				</td>
 				<td>
 					<button class="btn-remove">Delete Record</button>
@@ -75,28 +77,10 @@
 				<td>071589650</td>
 				<td>electronics</td>
 				<td>
-					<button class="btn-category">Sales Record</button>
+					<button class="btn-category" onclick="showSales()">Sales Record</button>
 				</td>
 				<td>
-					<button class="btn-edit">Edit Record</button>
-				</td>
-				<td>
-					<button class="btn-remove">Delete Record</button>
-				</td>
-			</tr>
-
-			<tr>
-				<td>123</td>
-				<td>John</td>
-				<td>Doe</td>
-				<td>John@gmail.com</td>
-				<td>071589650</td>
-				<td>electronics</td>
-				<td>
-					<button class="btn-category">Sales Record</button>
-				</td>
-				<td>
-					<button class="btn-edit">Edit Record</button>
+					<button class="btn-edit" onclick="showEditSales()">Edit Record</button>
 				</td>
 				<td>
 					<button class="btn-remove">Delete Record</button>
@@ -111,10 +95,28 @@
 				<td>071589650</td>
 				<td>electronics</td>
 				<td>
-					<button class="btn-category">Sales Record</button>
+					<button class="btn-category" onclick="showSales()">Sales Record</button>
 				</td>
 				<td>
-					<button class="btn-edit">Edit Record</button>
+					<button class="btn-edit" onclick="showEditSales()">Edit Record</button>
+				</td>
+				<td>
+					<button class="btn-remove">Delete Record</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td>123</td>
+				<td>John</td>
+				<td>Doe</td>
+				<td>John@gmail.com</td>
+				<td>071589650</td>
+				<td>electronics</td>
+				<td>
+					<button class="btn-category" onclick="showSales()">Sales Record</button>
+				</td>
+				<td>
+					<button class="btn-edit" onclick="showEditSales()">Edit Record</button>
 				</td>
 				<td>
 					<button class="btn-remove">Delete Record</button>
