@@ -282,6 +282,10 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	font-size: 30px;
 	color: red;
 }
+.container-img
+{
+	display: none;
+}
 .edit-info input[type="text"],.edit-info select
 {
 	padding-left: 10px;
