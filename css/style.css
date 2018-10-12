@@ -275,16 +275,29 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	width: 400px;
 	height: 400px;
 	position: relative;
-	top: 90px;
+	top:30px;
+	
 }
 .product-image span
 {
 	font-size: 30px;
 	color: red;
+	position: relative;
+	top:10px;
+	left: 340px;
 }
 .container-img
 {
 	display: none;
+	background-color: #fff;
+	z-index:1;
+	width:60%;
+	height: 500px;
+	margin: auto;
+	border-width: 10px;
+	border-style: solid;
+	border-color: #4a306d;
+
 }
 .edit-info input[type="text"],.edit-info select
 {

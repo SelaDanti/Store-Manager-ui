@@ -20,8 +20,11 @@ function showImage()
 {
 	itemImg = document.getElementsByClassName('container-img');
 	itemBody = document.getElementsByClassName('container-body')
-	itemImg[0].style.display= 'block'
-	itemBody[0].style.display = 'none'
+	itemImg[0].style.display= 'block';
+	itemImg[0].style.position = 'absolute';
+	itemImg[0].style.top = 60+'px';
+	itemImg[0].style.left = 270+'px';
+	itemBody[0].style.opacity = 0.3;
 }
 
 function showBody()
@@ -30,4 +33,5 @@ function showBody()
 	itemBody = document.getElementsByClassName('container-body')
 	itemImg[0].style.display= 'none'
 	itemBody[0].style.display = 'block'
+	itemBody[0].style.opacity = 1;
 }
