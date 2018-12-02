@@ -15,7 +15,7 @@ a{text-decoration: none;}
 {
 	text-align: center;
 }
-input[type="text"],input[type="email"],input[type="password"],select
+input[type="text"],input[type="email"],input[type="password"],select,input[type="number"]
 {
 	width:80%;
 	margin-left: auto;
@@ -79,7 +79,7 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 {
 	width:50%;
 	margin: auto;
-	height: 440px;
+	height: auto;
 	background-color: #fff;
 	position: relative;
 	top:60px;
@@ -90,7 +90,7 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	height: 120px;
 	padding-top: 10px;
 }
-.login-box input[type="email"],.login-box input[type="password"]
+.login-box input[type="email"],.login-box input[type="password"], .login-box input[type="text"]
 {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -98,6 +98,7 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 .login-box button
 {
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 
@@ -162,7 +163,7 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	border-bottom-color: #4a306d;
 	border-bottom-width: 1px;
 }
-#product-title
+#product-title, #cart-title
 {
 	background-color: #4a306d;
 	height: 50px;
@@ -321,7 +322,7 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	width:81%;
 	margin:auto;
 }
-.attendant-form input[type="text"],.attendant-form input[type="email"].attendant-form input[type="password"],.attendant-form select
+.attendant-form input[type="text"],.attendant-form input[type="email"], .attendant-form input[type="password"],.attendant-form select,.attendant-form input[type="number"]
 {
 	margin-top: 10px;
 }
@@ -331,4 +332,19 @@ input[type="email"]::placeholder, input[type="password"]::placeholder,input[type
 	position: relative;
 	left:120px;
 	top:5px;
+}
+#error
+{
+	width:70%;
+	height: 20px;
+	margin:auto;
+	color:#fff;
+	display: none;
+	
+}
+#role-result
+{
+	color: green;
+	width:60%;
+	margin: auto;
 }

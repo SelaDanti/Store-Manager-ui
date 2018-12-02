@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="../images/favicon.ico">
+	<script src="../js/fetch/logout.js"></script>
 </head>
 <body class="white-bg">
 <!--navigation-->
@@ -18,7 +19,7 @@
 			<li><a href="new-product.html">Add Products</a></li>
 			<li><a href="edit-product.html">Edit Product</a></li>
 			<li><a href="category.html">Category</a></li>
-			<li><a href="../index.html">Logout</a></li>
+			<li><a href="../index.html"  onclick="logout()">Logout</a></li>
 		</ul>
 	</div>
 </div>
@@ -27,33 +28,25 @@
 <!--new title-->
 <div class="container center">
 	<h1>Add Store Attendant</h1>
-
+	<div id="error"></div>
 	<div class="attendant-form">
-		<form>
 			<label>First Name</label><br>
-			<input type="text" name="" placeholder="First Name"><br>
+			<input type="text" id="firstName" placeholder="First Name"><br>
 			<label>Last Name</label><br>
-			<input type="text" name="" placeholder="Last Name"><br>
+			<input type="text" id="lastName" placeholder="Last Name"><br>
 			<label>Email</label><br>
-			<input type="text" name="" placeholder="Email"><br>
-			<label>Telophone</label><br>
-			<input type="text" name="" placeholder="Telephone"><br>
-			<label>Department</label><br>
-			<select>
-				<option>List of Department</option>
-				<option>List of Department</option>
-				<option>List of Department</option>
-			</select><br>
-			<label>Gender</label><br>
-			<select>
-				<option>Male</option>
-				<option>Female</option>
+			<input type="text" id="email" placeholder="Email"><br>
+			<label>Password</label><br>
+			<input type="password" id="password" placeholder="Password"><br>
+			<label>Role</label><br>
+			<select id="role">
+				<option>admin</option>
+				<option>attendant</option>
 			</select><br><br>
-			<button type="submit" class="btn-main">Add Store Attendant</button>
-		</form>
+			<button type="submit" class="btn-main">ADD STORE ATTENDANT</button>
 	</div>
 </div>
 <!--new title-->
-
+<script src="../js/fetch/post-attendants.js"></script>
 </body>
 </html>
